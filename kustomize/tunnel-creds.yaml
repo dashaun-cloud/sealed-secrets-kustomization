@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: tunnel-credentials
+  namespace: default
+spec:
+  encryptedData:
+    credentials.json: AgBh13wV4Oq/sXO/qO86wBwJeRNligI7v1822A+IDgOFwJvbOPk48jeZ9bU/jcK8Pu2zJJGgEhaEwd+PFGehIXGLYEBucMevBVZENVVjZECwipBB1qRWJ2JNvPgPV3fCx6Sn6Oaqv9b/qUbNPi+mBSxkjNlPyPrUuMDqC8i3UzlqPYOw41FQCUmkdFfn1wBMbB+IM8Ig8Wr109C9BsBDok7/ZUSMMbeQL/rJkHDYjbIHqVDwg4f0Hk0DapBG5is7X1KLx5d4pc5hsffGEJy7c3fB7g7P/LMLxxpeo+XbwrrUFUjn2TpaIPFhCBGVaM1ZS59ttRbqBjUSISo5C4eeqS+88o9hOfVPHUXVLAbk0fnljxbdSyAiuaBUO8HtksiyY9SooaHIztbdNAsqCFDdFJk3vQ8s/wUsU+w5w4lgj82DypEV+AkXMB4NuU0P1I+B/kexiQeKJi8P0yHUfq5o9Dv756Akig8NeGBI50OTXjPc0oJfO7B/AtbztW7rnz1eifhIAPcheQAjzLYoVcDVX3rokzzWha8sQODxEmTVh980KlIgYnAkWajuqLwyYEte2EpK87XHPR6Va35mtLR2pUvMQHX5oE/L1veqbnBms2D/stkqBs/dDn5GKq4sk4HjdmvbMxfEjOu4oexkmwxIib+j7XdtXV7p5zyuPfwyBlYi9+hQoo0hy3fyeTMn15+e1U5NI0TxWCfvw1g8KiFxj/AVNLoI8Rsm50iuAGTifwQWkeSbLDsnnBKJEdE68pGpwVNqNUlG99I2nPB/VembzjLZlli33fk0jK8utejtt5u2Wsm/PLfZZSmYU0Lsz2UBxTqsVjqptSqhEsUoqGF+mhFUCRQaC1XIEGIc6/AB48oaDsVRztQJbnrLsnYXZd9rY+bOximgErOMgxXhEV42FGvzLw==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: tunnel-credentials
+      namespace: default
+    type: Opaque
+
